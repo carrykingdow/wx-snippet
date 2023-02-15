@@ -1,0 +1,31 @@
+<!-- <view class="cu-bar bg-white search fixed" >
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="输入搜索的关键词" confirm-type="search" bindinput="onSearchInput"></input>
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-gradual-green shadow-blur round" bindtap="search">搜索</button>
+  </view>
+</view> -->
+<scroll-view scroll-y class="indexes" scroll-with-animation="true" enable-back-to-top="true">
+  <block wx:for="{{wxComponents}}" wx:key="index">
+    <view class="padding indexItem-{{wxComponents[index]}}" id="indexes-{{wxComponents[index]}}" data-index="{{wxComponents[index]}}">{{wxComponents[index].label}}</view>
+    <view class="cu-list menu-avatar no-padding">
+      <view class="cu-item" wx:for="{{wxComponents[index].subData}}" wx:for-item="subItem" wx:key="subIndex" wx:for-index="subIndex" data-url="{{subItem.url}}" bindtap="navigateHandler">
+        <view class="cu-avatar round lg">{{subItem.thumbnail}}</view>
+        <view class="content">
+          <view class="text-grey">
+            <text class="text-abc">{{subItem.name}}</text></view>
+          <view class="text-gray text-sm">
+            {{subItem.desc}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>
+
+<!--选择显示-->
+<!-- <view hidden="{{hidden}}" class="indexToast">
+  {{listCur}}
+</view> -->

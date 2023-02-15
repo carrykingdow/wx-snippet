@@ -1,0 +1,13 @@
+@import "../../../lib/weui.wxss";
+
+.section{
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}
+textarea {
+  min-height: 100rpx;
+  border: 1rpx solid #eee;
+  margin: 0 auto;
+}
+

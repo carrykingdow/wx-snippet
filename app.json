@@ -1,0 +1,71 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "真机渲染",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "subpackages": [
+        {
+            "root": "subPages",
+            "pages": [
+                "pages/cover-view/index",
+                "pages/match-media/index",
+                "pages/movable-area/index",
+                "pages/page-container/index",
+                "pages/root-portal/index",
+                "pages/scroll-view/index",
+                "pages/scroll-view/normal/index",
+                "pages/scroll-view/fresh/index",
+                "pages/share-element/index",
+                "pages/swiper/index",
+                "pages/view/index",
+                "pages/icon/index",
+                "pages/progress/index",
+                "pages/rich-text/index",
+                "pages/text/index",
+                "pages/button/index",
+                "pages/checkbox/index",
+                "pages/editor/index",
+                "pages/form/index",
+                "pages/input/index",
+                "pages/keyboard-accessory/index",
+                "pages/label/index",
+                "pages/picker/index",
+                "pages/picker-view/index",
+                "pages/radio/index",
+                "pages/slider/index",
+                "pages/switch/index",
+                "pages/textarea/index"
+
+
+
+            ]
+        }
+    ],
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#FF5F15",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "assets/icon2.png",
+                "selectedIconPath": "assets/icon2_select.png",
+                "text": "组件"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "iconPath": "assets/feedback.png",
+                "selectedIconPath": "assets/feedback-select.png",
+                "text": "反馈"
+            }
+        ]
+    }
+}

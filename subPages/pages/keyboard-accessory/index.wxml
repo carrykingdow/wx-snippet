@@ -1,0 +1,17 @@
+<input style="margin-top: 200rpx;height:100rpx;border:1rpx solid green" placeholder="input" bindfocus="focus1" bindblur="blur1" hold-keyboard>
+  <keyboard-accessory class="container" style="height: 100px;">
+    <cover-view bindtap="tap" style="flex: 1; width: 50px; background: green;">
+      <button>click</button>
+    </cover-view>
+    <cover-image bindtap="tap" src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="flex: 1; width: 50px; background: red;">
+    </cover-image>
+  </keyboard-accessory>
+</input>
+
+<textarea hold-keyboard="{{true}}" style="margin-top: 200rpx;height:100rpx;border:1rpx solid green" placeholder="textarea1" bindfocus="focus2" bindblur="blur2">
+  <keyboard-accessory class="container" style="height: 50px;">
+    <cover-view bindtap="tap" style="flex: 1; width: 50px; background: green;">textarea1</cover-view>
+    <cover-view bindtap="tap" style="flex: 1; width: 50px; background: red;">2</cover-view>
+  </keyboard-accessory>
+</textarea>
+

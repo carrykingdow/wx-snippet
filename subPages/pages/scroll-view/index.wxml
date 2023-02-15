@@ -1,0 +1,4 @@
+<view class="page-container">
+  <button class='cu-btn round bg-red margin-lg' data-url="/subPages/pages/scroll-view/normal/index" bindtap="navigateHandler">常规滚动</button>
+  <button class="cu-btn round bg-orange" data-url="/subPages/pages/scroll-view/fresh/index"  bindtap="navigateHandler">下拉刷新</button>
+</view>

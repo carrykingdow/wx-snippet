@@ -1,0 +1,9 @@
+<scroll-view type="list" scroll-y style="width: 100%; overflow: auto; height: 500px;">
+  <view style="background-color: red; height: 200px;">
+    <popup show="{{show}}">
+      <view class="dialog">我是全局弹窗</view>
+    </popup>
+  </view>
+  <view wx:for="{{items}}" style="height: 50px; {{item.bg}}" bindtap="tap">{{index}}</view>
+  <view></view>
+</scroll-view>

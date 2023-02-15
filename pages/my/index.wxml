@@ -1,0 +1,20 @@
+<view>
+  <view class="top">
+    <view class="avatar-wrap">
+      <image class="head_img" src="../../assets/default.jpg" />
+      <view class="user_name">
+        <text>欢迎你，尊敬的小主~</text>
+      </view>
+    </view>
+    <view class="feedback">
+      <button class='button' open-type="share">分享给好友</button>
+      <view style="margin-bottom: 20rpx;" />
+      <button class='button' open-type="feedback">反馈与建议</button>
+      <view style="margin-bottom: 20rpx;" />
+      <button class='button' bindtap="openConsole">打开控制台</button>
+    </view>
+   
+   
+    <ad unit-id="{{bannerUnitId}}" ad-intervals="30"></ad>
+  </view>
+</view>
